@@ -1,0 +1,333 @@
+.logo {
+    height: 63px;
+    padding: 5px;
+}
+
+.footer-logo {
+    height: 4rem;
+    border-radius: 0.7rem;
+}
+
+.desktop-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 9px 14px;
+    margin-right: 3px;
+    font-weight: 500;
+}
+
+.active {
+    /* background-color: #eb6116;
+  color: white !important;
+  border-radius: 5px; */
+    color: #eb6116 !important;
+}
+
+.btn2 {
+    background-color: #eb6116;
+    color: #fff;
+}
+
+.offcanvas.show {
+    transform: none;
+    border-radius: 0 20px 20px 0;
+}
+
+.offcanvas-body ul li a {
+    text-decoration: none !important;
+    color: black !important;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.offcanvas-header {
+    padding: 1rem 2rem;
+}
+
+.offcanvas li.nav-item {
+    margin-bottom: 8px;
+}
+
+.login-btn {
+    border-radius: 20px;
+    padding: 8px 19px !important;
+    background-color: #eb6116;
+    transition: all 0.4s;
+    color: #fff !important;
+    box-shadow: 2px 2px 5px #ffffffcf inset, -2px -2px 5px #303030ad inset;
+}
+
+.login-btn:hover,
+.login-btn-active {
+    background-color: #eb6116;
+    color: #fff;
+    box-shadow: 2px 2px 5px #787878 inset, -2px -2px 5px #303030 inset,
+        2px 2px 5px #8b8b8b;
+    transform: scale(1.02);
+}
+
+.login-btn-active {
+    background-color: #eb6116;
+    color: #fff;
+}
+
+.package-section-bg {
+    background-color: #e4e4e4;
+}
+
+.heading-text {
+    color: #484848;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.sub-heading-text {
+    color: #525252;
+}
+
+.card-hover-shadow {
+    transition: all 0.4s;
+}
+
+.card-hover-shadow:hover {
+    box-shadow: 2px 2px 6px gray;
+    /* transform: scale(1.001); */
+}
+
+.btn2:hover {
+    background-color: #ef6a22;
+    color: #fff;
+}
+
+.ReactModal__Content--after-open {
+    box-shadow: 1px 1px 10px 1px #cbcbcb;
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.banner-img {
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+    outline: none;
+}
+
+.offer-carousel .slick-slide {
+    padding: 0 4px !important;
+}
+
+.banner {
+    height: 35vh;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 1px 7px #545454;
+}
+.center-text-banner {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-img-small {
+    height: 35vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #eb6116 !important;
+    border-color: #eb6116 !important;
+    font-size: 0.9rem;
+}
+.btn-primary:focus {
+    box-shadow: none !important;
+}
+
+.footer-section {
+    background-color: #202020;
+}
+
+.offer-carousel {
+    margin-top: 3rem;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.4rem;
+    transition: all 0.4s;
+    font-size: 0.93rem;
+    color: #e7e7e7;
+}
+
+.footer-section ul li:hover {
+    transform: translateX(4px);
+    color: #fff;
+    transition: all 0.4s;
+}
+
+.text-white-75 {
+    color: #e7e7e7;
+    font-size: 0.9rem;
+}
+
+.footer-section ul li:before {
+    content: "⮚";
+    margin-right: 0.4rem;
+}
+
+.font-weight-bold {
+    font-weight: 600 !important;
+}
+
+.slick-dots {
+    bottom: 20px !important;
+}
+
+/* .rounded-card{
+  height: 170px;
+  width: 170px;
+  border-radius: 90px;
+  overflow: hidden;
+} */
+.rounded-img {
+    height: 170px;
+    width: 170px;
+    border-radius: 90px;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #505050 !important;
+}
+
+.offer-card {
+    max-height: 252px;
+    overflow: hidden;
+    outline: none;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #eb6116 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+/* .rounded-card:hover .rounded-img {
+  box-shadow: 2px 2px 5px black;
+  transform: scale(1.01);
+  transition: all .5s;
+}
+
+.image-wraper{
+  height: 168px;
+  width: 253px;
+  border-radius: .25rem;
+  overflow: hidden;
+}
+
+.img-size{
+  height: 168px;
+  width: 253px;
+  object-fit: cover;
+  transition: all .5s;
+}
+
+.hotel-card:hover .img-size{
+  transform: scale(1.1);
+} */
+.hotel-card {
+    transition: all 0.3s;
+}
+
+.hotel-card:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 7px #c5c5c5;
+}
+
+.rounded-img:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 5px #8d8d8d;
+}
+
+.img-size {
+    min-height: 170px;
+    height: 170px;
+    overflow: hidden;
+}
+.img-size-flight {
+    min-height: 230px;
+    height: 230px;
+    overflow: hidden;
+}
+
+.offer-img {
+    height: 252px;
+}
+
+@media screen and (max-width: 992px) {
+    .desktop-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .offcanvas.show {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .offcanvas.show {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mobile-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .banner-img {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .banner-img {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .rounded-img {
+        height: 140px;
+        width: 140px;
+        border-radius: 90px;
+        object-fit: cover;
+    }
+
+    .banner-img {
+        height: 30vh;
+    }
+
+    .ReactModal__Content--after-open {
+        width: 100% !important;
+    }
+}

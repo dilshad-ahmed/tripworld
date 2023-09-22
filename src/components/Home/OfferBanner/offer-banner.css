@@ -1,0 +1,18 @@
+.offer-banner {
+    max-height: 350px;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(45deg, #1d5068, #222222);
+    color: #fff;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-banner-img {
+    max-height: 350px;
+    width: 100%;
+    object-fit: fill;
+    height: 350px;
+}
